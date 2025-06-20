@@ -22,7 +22,7 @@ body {
 .background {
   background-image: url(../public/sound-wave.png);
   background-size: cover;
-  height: 30vh;
+  height: 35vh;
   background-position: center;
   background-repeat: no-repeat;
 }

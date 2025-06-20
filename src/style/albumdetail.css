@@ -1,0 +1,85 @@
+.album-detail {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #333;
+  padding-bottom: 80px; /* Space for bottom nav */
+  width: 450px;
+  margin: 0 auto;
+}
+
+.banner {
+  background: url('public/mick.png') center/cover no-repeat;
+  padding: 40px 20px;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+.tag-buttons {
+  margin-top: 10px;
+}
+
+.tag {
+  background-color: rgb(255, 17, 104);
+  border: none;
+  border-radius: 20px;
+  padding: 6px 14px;
+  margin-right: 8px;
+  font-size: 14px;
+  color: #fff;
+  text-shadow: 0 0 2px rgba(0,0,0,0.5);
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+
+
+.section {
+  padding: 20px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.song-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+ 
+}
+
+.play-icon {
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+.song-info {
+ align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.song-info strong {
+  display: block;
+}
+
+.duration {
+  color: #777;
+  font-size: 14px;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #eee;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}

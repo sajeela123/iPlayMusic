@@ -1,0 +1,103 @@
+.albums-container {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.albums-title {
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.view-all {
+  font-size: 14px;
+  color: #e91e63;
+  cursor: pointer;
+}
+
+.album-scroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.album-card {
+  flex-shrink: 0;
+  width: 150px;
+  height: 120px;
+  border-radius: 12px;
+  overflow: hidden;
+
+}
+
+.album-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.release-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.release-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.release-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.release-info {
+  flex: 1;
+}
+
+.release-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.release-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
+}
+
+.release-songs {
+  font-size: 13px;
+  color: #999;
+}
